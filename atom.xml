@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://YelimarRodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://YelimarRodriguez.github.io/"/>
-  <updated>2013-10-22T21:35:28-04:00</updated>
+  <updated>2013-10-22T21:46:58-04:00</updated>
   <id>http://YelimarRodriguez.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -76,24 +76,6 @@
 
 <p>Your brand-spanking, Ruby, newbie,
 Yeli</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github 1 Me 0]]></title>
-    <link href="http://YelimarRodriguez.github.io/blog/2013/10/22/github-1-me-0/"/>
-    <updated>2013-10-22T14:05:00-04:00</updated>
-    <id>http://YelimarRodriguez.github.io/blog/2013/10/22/github-1-me-0</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Hub takes Awareness]]></title>
-    <link href="http://YelimarRodriguez.github.io/blog/2013/10/21/git-hub-takes-awareness/"/>
-    <updated>2013-10-21T22:07:00-04:00</updated>
-    <id>http://YelimarRodriguez.github.io/blog/2013/10/21/git-hub-takes-awareness</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
