@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://YelimarRodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://YelimarRodriguez.github.io/"/>
-  <updated>2013-10-21T21:47:01-04:00</updated>
+  <updated>2013-10-22T21:35:28-04:00</updated>
   <id>http://YelimarRodriguez.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,89 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Day of BEWD]]></title>
+    <link href="http://YelimarRodriguez.github.io/blog/2013/10/22/first-day-of-bewd/"/>
+    <updated>2013-10-22T14:29:00-04:00</updated>
+    <id>http://YelimarRodriguez.github.io/blog/2013/10/22/first-day-of-bewd</id>
+    <content type="html"><![CDATA[<p>The first day of class was groovy up until I made a typo during our class code-along. It took a moment of my attention to fix. By the time I looked up at the slides and refocused my attention on the instructor we were already a couple of steps ahead… Yikes! I felt lost and frustrated for a while, thankfully Yaritza and Eddie helped me get resituated. I am glad this happened on the first day. It has taught me two things:</p>
+
+<p><strong>Lesson number one</strong>: Stop Steven if you are even one typo behind everyone else on a code along. Everything builds. When feelings of lostness and confusion take over your ability to take in new info is close to &lsquo;nil&rsquo;. Your brain shuts down. Not good…</p>
+
+<p><strong>Lesson number two</strong>: If you don&rsquo;t get something today, ease up on the frustration. Write down where you are stuck and let it go. Revisit it the next day with a rested body, feed tummy, and a fresh set of eyes. It makes a world of a difference! It&rsquo;s all about brain patterning. Today I reviewed the slides and feel better about them thank goodness. If that&rsquo;s not the case for you there are always office hours.</p>
+
+<p><strong>Topics covered in our first class:</strong></p>
+
+<ul>
+<li>Git</li>
+<li>Octopress</li>
+<li>Pushing code to Git Hub Pages</li>
+</ul>
+
+
+<p>Here are the notes I have based on my understanding (Give me feedback if I am wrong. Sistah wants to learn!):</p>
+
+<p><strong>A. Steps for commiting a file on Git using your command line (CL for short)</strong>**</p>
+
+<ol>
+<li>mkdir whatevernameyoufancy &ndash; creates a new directory a.k.a. folder, in this case my folder would be called &ldquo;whatevernameyoufancy&rdquo;</li>
+<li>git init <strong>&ndash;</strong> will initialize a git directory</li>
+<li>git add <strong>&ndash;</strong> followed by your file of choice will add it to the repository and will stage it</li>
+<li>git status <strong>&ndash;</strong> do this to check what you just staged for commit</li>
+<li>git commit -m <strong>&ndash;</strong> followed by your comment in single quotes i.e. git commit -m &lsquo;my blog is finally taking shape here&rsquo;.</li>
+<li>git log <strong>&ndash;</strong> you can do this to see a list all of your commits and logs for your file. To exit the log type  q.</li>
+</ol>
+
+
+<p> <strong>B. Steps for creating a new post on Octopress using your CL</strong></p>
+
+<ol>
+<li>rake new_post[&ldquo;enter post name here&rdquo;] &ndash; this creates the new post. Inside the double quotes enter whatever post name YOU want.</li>
+<li>Look at the return value of step 1. It will look something like this &ldquo;Creating new post: source/<em>posts/2013-10-22-enter-post-name-here-bewd.markdown&rdquo;. This source/</em>posts/2013-10-22-enter-post-name-here-bewd.markdown is your new file name.</li>
+<li>open newfilename.markdown &ndash; ie. open source/_posts/2013-10-22-enter-post-name-here-bewd.markdown&#8221; This will open the file in your markdown editor from the terminal.</li>
+<li>Edit your post</li>
+<li>Follow step 2 &ndash; 5 from &ldquo;Steps for commiting a file on Git using your command line&rdquo; to commit this new file to git. You can do this as many times as you want during your editing process to have as many versions of your file as needed.</li>
+</ol>
+
+
+<p><strong>C. Steps to deploy your git commits to GitHub</strong></p>
+
+<ol>
+<li>rake generate &ndash; converts the file to html so that it is readable on the internet</li>
+<li>rake deploy &ndash; pushes the code to Git Hub</li>
+</ol>
+
+
+<p><strong>NOTE</strong></p>
+
+<p><strong>If you are in Octopress here is your workflow:</strong></p>
+
+<p>Follow all steps from part B through Part C and voila you are done and you&rsquo;ve published your files on GitHub ;)****</p>
+
+<p>I encourage your feedback! Let me know if there is a better way to do this or if I have any errors on here. Thanks. I look forward to your comments.</p>
+
+<p>Your brand-spanking, Ruby, newbie,
+Yeli</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Github 1 Me 0]]></title>
+    <link href="http://YelimarRodriguez.github.io/blog/2013/10/22/github-1-me-0/"/>
+    <updated>2013-10-22T14:05:00-04:00</updated>
+    <id>http://YelimarRodriguez.github.io/blog/2013/10/22/github-1-me-0</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git Hub takes Awareness]]></title>
+    <link href="http://YelimarRodriguez.github.io/blog/2013/10/21/git-hub-takes-awareness/"/>
+    <updated>2013-10-21T22:07:00-04:00</updated>
+    <id>http://YelimarRodriguez.github.io/blog/2013/10/21/git-hub-takes-awareness</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
